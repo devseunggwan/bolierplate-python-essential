@@ -1,8 +1,9 @@
 [tool.poetry]
-name = "app"
-version = "0.1.0"
-description = ""
-authors = ["Seunggwan Song <yanhis97531@gmail.com>"]
+name = "{{cookiecutter.project_name}}"
+version = "{{cookiecutter.version}}"
+description = "{{cookiecutter.description}}"
+authors = ["{{cookiecutter.full_name}} <{{cookiecutter.email}}>"]
+license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
