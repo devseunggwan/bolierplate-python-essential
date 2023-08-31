@@ -1,7 +1,6 @@
 sudo apt-get update
-sudo apt-get install build-essential libbz2-dev openssl lzma liblzma-dev
+sudo apt-get install build-essential libbz2-dev openssl lzma liblzma-dev libffi-dev zlib1g-dev libreadline-dev libsqlite3-dev
 curl https://pyenv.run | bash
-
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
 echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(pyenv init -)"' >> ~/.bashrc
