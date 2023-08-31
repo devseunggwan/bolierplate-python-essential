@@ -1,5 +1,5 @@
 sudo apt-get update
-sudo apt-get install build-essential libbz2-dev openssl
+sudo apt-get install build-essential libbz2-dev openssl lzma liblzma-dev
 curl https://pyenv.run | bash
 
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
